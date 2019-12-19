@@ -1,0 +1,7 @@
+number = int(input(" Please Enter any Positive Integer : "))
+exponent = int(input(" Please Enter Exponent Value : "))
+power = 1
+for i in range(1, exponent + 1):
+    power = power * number
+    
+print("Thus the value is",power)
